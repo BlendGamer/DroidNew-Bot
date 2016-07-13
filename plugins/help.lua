@@ -67,12 +67,9 @@ local function do_keyboard_private()
     local keyboard = {}
     keyboard.inline_keyboard = {
     	{
-    		{text = '👥 Add me to a group', url = 'https://telegram.me/'..bot.username..'?startgroup=new'},
-    		{text = '📢 Bot channel', url = 'https://telegram.me/'..config.channel:gsub('@', '')},
-	    },
-	    {
-	        {text = '📕 All the commands', callback_data = '!user'}
-        }
+    		{text = '💠 Canal DroidNew 💠', url = 'https://telegram.me/droidnew'},
+    		{text = '💠 Grupo DroidNew 💠', url = 'https://telegram.me/grupodroidnew/'},
+	    }
     }
     return keyboard
 end
@@ -129,27 +126,7 @@ local action = function(msg, blocks, ln)
         elseif query == 'mod' then
             text = lang[ln].help.kb_header
         end
-        if query == 'info' then
-        	text = lang[ln].help.mods[query]
-        elseif query == 'banhammer' then
-        	text = lang[ln].help.mods[query]
-        elseif query == 'flood' then
-        	text = lang[ln].help.mods[query]
-        elseif query == 'media' then
-        	text = lang[ln].help.mods[query]
-        elseif query == 'welcome' then
-        	text = lang[ln].help.mods[query]
-        elseif query == 'extra' then
-        	text = lang[ln].help.mods[query]
-        elseif query == 'warns' then
-        	text = lang[ln].help.mods[query]
-        elseif query == 'char' then
-        	text = lang[ln].help.mods[query]
-        elseif query == 'links' then
-        	text = lang[ln].help.mods[query]
-        elseif query == 'lang' then
-        	text = lang[ln].help.mods[query]
-        elseif query == 'settings' then
+        if query == 'pedido' then
         	text = lang[ln].help.mods[query]
         end
         keyboard = make_keyboard(with_mods_lines, query)
