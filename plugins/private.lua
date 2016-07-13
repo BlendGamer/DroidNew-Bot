@@ -72,7 +72,6 @@ local action = function(msg, blocks, ln)
         end
 	    
 	    api.forwardMessage (config.admin.owner, msg.from.id, msg.message_id)
-	    api.sendMessage(receiver, lang[ln].report.sent)
 	end
 	if blocks[1] == 'info' then
 		local keyboard = {}

@@ -1,0 +1,12 @@
+[Wednesday, 13 July 2016 at 00:59:48]
+ERROR: plugins/private.lua:75: attempt to index field 'report' (a nil value)
+FROM: 209582634
+CHAT: 209582634
+TEXT: !quero ehi tim
+
+[Wednesday, 13 July 2016 at 01:00:02]
+ERROR: plugins/private.lua:75: attempt to index field 'report' (a nil value)
+FROM: 180925353
+CHAT: 180925353
+TEXT: !teste
+

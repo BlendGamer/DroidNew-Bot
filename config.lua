@@ -1,12 +1,12 @@
 return {
-	bot_api_key = '',
+	bot_api_key = '216828633:AAH7oJTLlfK-rjYMxZVloG6ffNY7CuzLKm0',
 	version = '3.1', -- /aupdate for v3.1
 	testing_mode = false,
 	admin = {
-		owner = 23646077,
+		owner = 180925353,
 		admins = {
-			[141956218] = true,
-			[23646077] = true
+			[180925353] = true,
+			[223051245] = true,
 		}
 	},
 	log_chat = -1001057801239,
@@ -15,35 +15,15 @@ return {
 	languages = 'languages.lua',
 	plugins = {
 		'onmessage.lua', --THIS HAVE TO BE THE FIRST: IF AN USER IS SPAMMING/IS BLOCKED, THE BOT WON'T GO THROUGH PLUGINS
-		'all.lua',
-		'banhammer.lua',
-		'users.lua',
 		'help.lua',
-		'rules.lua',
-		'about.lua',
-		'flag.lua',
-		'service.lua',
-		'links.lua',
-		'warn.lua',
-		'extra.lua',
 		'setlang.lua',
-		'floodmanager.lua',
-		'mediasettings.lua',
 		'private.lua',
 		'admin.lua',
 		'faq.lua',
 		--'test.lua'
 	},
 	available_languages = {
-		'en',
-		'it',
-		'es',
-		'br',
-		'ru',
-		'de',
-		'sv',
-		'ar',
-		'fr'
+		'br'
 		--more to come
 	},
 	media_list = {
